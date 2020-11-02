@@ -8,6 +8,13 @@ output:
 
 # Welcome to Phoebe's website
 
+Hi! My name is Phoebe Mo. I am currently a first-year graduate student in Columbia University, Mailman School of Public Health with Biostatistics major. This is my first website building with Rstudio. You can learn more about me by browsing over this website.
+
+
+## My favorite character
+
+Rilakkuma!
+
 ![](https://media.giphy.com/media/pm2tZi5DjhurQwj5BZ/giphy.gif)
 
 # Want to know more about me?

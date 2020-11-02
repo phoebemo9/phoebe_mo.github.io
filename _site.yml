@@ -9,6 +9,9 @@ navbar:
       href: mailto:<keyan.m@columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/phoebemo9/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/keyan-phoebe-mo-120b8315a
 output:
   html_document:
     theme: cerulean
+  

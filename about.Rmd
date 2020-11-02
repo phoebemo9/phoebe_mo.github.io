@@ -1,7 +1,73 @@
 ---
-title: "About Me"
+title: "ABOUT ME"
 output:
   html_document:
     toc: true
     toc_float: true
 ---
+
+![](https://media.giphy.com/media/VKWax7JlQsily/giphy.gif)
+
+## Education
+
+Columbia University, Mailman School of Public Health - M.S. in Biostatistics
+
+University of California, San Diego - B.S. in Mathematics-Computer Science
+
+## Courses taken/taking
+
+### Math-related
+Calculus/Science and Engineering; Applied linear Algebra; Complex Analysis; Combinatorics; Numerical Analysis; Probability; Biostatistics Methods...
+
+### Programming-related
+Java Programming; Theory of Computation; Computer Organizations and Systems Programming; Design and Analysis of Algorithm; Data Science...
+
+## Work Experience
+* Title: Software Engineering Internship (Jul. 2019 - Sep. 2019)
+
+* Company: Tencent Computer System Co. Ltd
+
+* Responsibilities:
+
+  * Programming internship of front-end web and back-end development. Mainly focus on developing a program called "Family Guard", whose main goal is to offer family control on monitoring teenagers' use of time in playing games.
+  
+  * Responsible for adding new methods to deal with user data between front-end and database, such as applying and storing.
+  
+  * Participated in implementing new functions and improving efficiency based on user demands.
+
+## Programming Projects
+
+* Tetris Game
+  * Java GUI and basic data structures were used to design this traditional user-interactive game
+  
+* Imitation of Block Chain
+  * A mini program of imitation for digging virtual coins using Java language to implement
+  * Using different data structures (especially linked list), hash functions, data storage, and basic concepts of cryptocurrency
+
+* Searching Tool
+  * A tool to search for a specific word (words) with their counts in a given file according to specific requirements
+  * This program is implemented by C language. Sorting, searching, and memory operations are greatly used
+
+* Six Degrees of Kelvin Bacon
+  * Using DFS, BFS, Dijkstra algorithm, and Disjoint Sets in C++ to efficiently search for relationships between two persons.
+Graph theory and tree properties are also widely used throughout this project
+  * Analyze/Improve efficiency given by different algorithms by inspecting their performance in the program
+  * Link: [github link for this project](https://github.com/keyanmo9/CS100-PA4.git)
+  
+## Skills
+
+* Basic Tools:
+
+  Excel, Word, PowerPoint
+
+* Programming Languages:
+
+  Java, Python, C, C++, MATLAB, R, ARM assembly, HTML, JavaScript, CSS, MySQL
+  
+* Operating System/Applications:
+
+  Linux, Unix, Vim, Valgrind, GDB, Eclipse, Git, Makefile, Junit
+
+* Language:
+
+  Cantonese, Mandarin, English
