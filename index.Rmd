@@ -1,0 +1,16 @@
+---
+title: "My website"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Welcome to Phoebe's website
+
+![](https://media.giphy.com/media/pm2tZi5DjhurQwj5BZ/giphy.gif)
+
+# Want to know more about me?
+Click the link below to read more:
+
+[About Me](about.html)
