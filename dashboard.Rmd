@@ -40,7 +40,9 @@ rest_inspec %>%
     cuisine_description = fct_reorder(cuisine_description, score)
     ) %>%
   plot_ly(
-    x = ~cuisine_description, y = ~score, text = ~text_label, color = ~cuisine_description, alpha = 0.5, type = "box", colors = "viridis")
+    x = ~cuisine_description, y = ~score, text = ~text_label, color = ~cuisine_description, alpha = 0.5, type = "box", colors = "viridis") %>%
+  layout(title = "Score for each selected Cuisine", xaxis = list(title = "Cuisine"),
+         yaxis = list(title = "Score"))
 ```
 
 Column {data-width=350}
@@ -51,7 +53,9 @@ Column {data-width=350}
 rest_inspec %>%
   count(cuisine_description) %>%
   mutate(cuisine_description = fct_reorder(cuisine_description, n)) %>%
-  plot_ly(x = ~cuisine_description, y = ~n, color = ~cuisine_description, type = "bar", colors = "viridis")
+  plot_ly(x = ~cuisine_description, y = ~n, color = ~cuisine_description, type = "bar", colors = "viridis") %>%
+  layout(title = "Count for each selected Cuisine", xaxis = list(title = "Cuisine"),
+         yaxis = list(title = "Count"))
 ```
 
 ### Chart C
@@ -61,6 +65,8 @@ rest_inspec %>%
     zipcode = as.character(zipcode)
   ) %>%
   plot_ly(
-    x = ~cuisine_description, y = ~zipcode, color = ~cuisine_description, alpha = 0.5, type = "violin", colors = "viridis")
+    x = ~cuisine_description, y = ~zipcode, color = ~cuisine_description, alpha = 0.5, type = "violin", colors = "viridis") %>%
+  layout(title = "Distribution for each selected Cuisine", xaxis = list(title = "Cuisine"),
+         yaxis = list(title = "Zipcode"))
 ```
 
